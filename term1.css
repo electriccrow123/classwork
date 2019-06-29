@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body {
+    background-color: rgba(102, 102, 110, 0.884);
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: blue;
+    font-style: bold;
+    text-shadow: 2px 2px 3px black;
+    padding-bottom: 10px;
+}
+h2, h3 {
+    color: blue;
+    font-style: bold;
+    border: 1px black;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.table:hover {
+    color: rgb(106, 106, 235);
+}
+.table {
+    color: grey;
+}
+.drop {
+    color: rgb(156, 156, 240);
+    background-color: rgb(80, 102, 122);
+    border: 1px black; 
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(46, 55, 73);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d6d2ce;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+      background-color: rgb(80, 102, 122);
+      color: rgb(201, 135, 12);
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+      background-color: rgb(58, 74, 88);
+      color: orange
+    }
