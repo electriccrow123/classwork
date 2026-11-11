@@ -1,0 +1,6 @@
+Need help cleaning up product spreadsheet (remote)
+
+Small online shop, about 1,200 rows in Google Sheets. Need duplicates removed,
+categories made consistent, and product descriptions rewritten so they read well.
+Fixed price $150, paid by PayPal invoice, half up front. Due in one week.
+Reply with a short note on similar work you've done. - Dana, Maple Street Candles
